@@ -1,0 +1,17 @@
+{
+  "name": "get",
+  "version": "0.0.1",
+  "description": "Get stuff",
+  "keywords": [],
+  "author": "Charlie Rudenstål <charlie4@gmail.com>",
+  "dependencies": {
+    "request": "*",
+    "streamline": "*",
+    "lazy": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}

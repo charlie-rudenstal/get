@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+/**
+ * get
+ * Copyright(c) 2012 Charlie Rudenstål <charlie4@gmail.com>
+ * MIT Licensed 
+ */
+
+var get = require('../');
+get(process.argv, function(err, r) {
+	console.log(r);
+	//process.stdout.write(r + '\n');	
+});
