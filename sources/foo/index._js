@@ -4,9 +4,7 @@ var foo = function(query2, _) {
 	return query()
 		   .json('http://services.tv.nu/search?query=' + query2 + '&aggregate=program')
 		   .get('results')
-		   .reverse()
-		   .resolve(_)
-	;
+		   .reverse();
 }
 
 module.exports = {
