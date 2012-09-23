@@ -10,13 +10,13 @@ Goals:
 
 Example:
 
-    $ get tickets from agilezen and order by id
+    $ get tickets from agilezen and order by priority
 
 - `get` is the name of the executable
 - `agilezen` is the plugin
 - `tickets` is an action on agilezen
 - `order by` is a general action provided by get
-- `id` is an attribute of the result
+- `priority` is an attribute of the result
 - `from` and `and` are unknowns and therefore ignored
 
 This project is not ready for use unless you intend to hack on it.
