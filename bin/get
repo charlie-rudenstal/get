@@ -7,7 +7,7 @@
  */
 
 var get = require('../');
+
 get(process.argv, function(err, r) {
 	console.log(r);
-	//process.stdout.write(r + '\n');	
 });
