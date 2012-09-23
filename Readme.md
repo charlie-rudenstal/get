@@ -1,6 +1,6 @@
 # get
 
-Retrieve and pipe data from the web with this CLI.
+Retrieve and pipe data from the web with this CLI.  
 This project is not ready for use unless you intend to hack on it.
 
 Goals:
