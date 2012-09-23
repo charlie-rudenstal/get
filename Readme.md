@@ -19,15 +19,12 @@ Example:
 - `priority` is an attribute of the result
 - `from` and `and` are unknowns and therefore ignored
 
-Or
+Or any of the above (equal)
 
-  $ get ticket number 4 from agilezen + trello | find tickets with title on jira 
+     $ get ticket number 4 from agilezen + trello | find tickets with title on jira 
+     $ get agilezen + trello ticket 4 | jira find title 
 
-Which equals 
-
-  $ get agilezen + trello ticket 4 | jira find title 
-
-- Will find tickets on jira with titles that match any of the titles from the two tickets with ticketnumber 4 on agilezen and trello
+Which will find find tickets on jira with titles that match any of the titles from the two tickets with ticketnumber 4 on agilezen and trello
 
 This project is not ready for use unless you intend to hack on it.
 
