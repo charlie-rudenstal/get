@@ -1,7 +1,24 @@
-
 # get
 
-  Get stuff
+Retrieve and pipe data from the web with this CLI.
+
+Goals:
+- Simple to use
+- Small and maintanable code base
+- Small and maintanable plugins to add new services
+
+Example:
+
+    $ get tickets from agilezen and order by id
+
+- `get` is the name of the executable
+- `agilezen` is the plugin
+- `tickets` is an action on agilezen
+- `order` by is a general action provided by get
+- `id` is an attribute in the result
+- `from` and `and` are unknown and therefore ignored
+
+This project is not ready for use unless you intend to hack on it.
 
 ## License 
 
