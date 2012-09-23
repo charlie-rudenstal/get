@@ -17,7 +17,7 @@ Example:
 - `tickets` is an action on agilezen
 - `order by` is a general action provided by get
 - `id` is an attribute in the result
-- `from` and `and` are unknown and therefore ignored
+- `from` and `and` are unknowns and therefore ignored
 
 This project is not ready for use unless you intend to hack on it.
 
