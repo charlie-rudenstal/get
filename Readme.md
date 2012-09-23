@@ -6,7 +6,7 @@ Goals:
 - Simple to use
 - Small and maintanable code base
 - Small and maintanable plugins to add new services
-- Avoid unnecessary states and perform all operations asynchronously and lazy 
+- Avoid unnecessary states and perform all operations asynchronously with lazy execution 
 
 Example:
 
