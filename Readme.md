@@ -1,6 +1,7 @@
 # get
 
 Retrieve and pipe data from the web with this CLI.
+This project is not ready for use unless you intend to hack on it.
 
 Goals:
 - Simple to use
@@ -26,7 +27,6 @@ Another example: (the two below are equal)
 
 Which will find find tickets on jira with titles that match any of the titles from the two tickets with ticketnumber 4 on agilezen and trello
 
-This project is not ready for use unless you intend to hack on it.
 
 ## License 
 
