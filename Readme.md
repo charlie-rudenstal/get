@@ -15,7 +15,7 @@ Example:
 - `get` is the name of the executable
 - `agilezen` is the plugin
 - `tickets` is an action on agilezen
-- `order` by is a general action provided by get
+- `order by` is a general action provided by get
 - `id` is an attribute in the result
 - `from` and `and` are unknown and therefore ignored
 
