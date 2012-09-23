@@ -5,7 +5,7 @@ Retrieve and pipe data from the web with this CLI.
 Goals:
 - Simple to use
 - Small and maintanable code base
-- Small and maintanable plugins to add new services
+- Small, maintanable and easy to write plugins to add support for new services
 - Avoid unnecessary states and perform all operations asynchronously with lazy execution 
 
 Example:
