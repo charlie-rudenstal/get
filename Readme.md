@@ -19,7 +19,7 @@ Example:
 - `priority` is an attribute of the result
 - `from` and `and` are unknowns and therefore ignored
 
-Or any of the above (equal)
+Another example: (the two below are equal)
 
      $ get ticket number 4 from agilezen + trello | find tickets with title on jira 
      $ get agilezen + trello ticket 4 | jira find title 
