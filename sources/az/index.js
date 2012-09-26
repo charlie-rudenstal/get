@@ -1,7 +1,7 @@
 var query = require('../../lib/helpers/query');
 var apikey = "7b0268fdfa224eb2932f335195d4f77a";
 
-var projects = function(noparam, callback) { 
+var projects = function(noparam, data, callback) { 
 	query
 	.json('https://agilezen.com/api/v1/projects', {'X-Zen-ApiKey': apikey })
 	.match('.items :nth-child(1n) > .name')

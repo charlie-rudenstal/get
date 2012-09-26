@@ -1,6 +1,6 @@
 var query = require('../../lib/helpers/query');
 
-var search = function(search, callback) { 
+var search = function(search, data, callback) { 
     query
     .json('http://services.tv.nu/search?query='+escape(search)+'&aggregate=program')
     .get("results")
