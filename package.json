@@ -8,7 +8,8 @@
     "request": "*",
     "streamline": "*",
     "JSONSelect": "*",
-    "lazy": "*"
+    "lazy": "*",
+    "rsj": "*"
   },
   "devDependencies": {
     "mocha": "*",

@@ -8,22 +8,27 @@ var projects = function(noparam, callback) {
 	.then(callback);
 }
 
-var stories = function(project, _) {	
 
-	// TODO: Check for int, then it's an id
-	// Projects are by id, retrieve id by project name
-	//var p = projects(null, _).
 
-	//return p;
 
-	/*var options = {};
-	options.url = 'https://agilezen.com/api/v1/projects';
-	options.headers = {"X-Zen-ApiKey": apikey };
-	return this.json(options, _);*/
-}
+
+
+
+
+
+
 
 module.exports = {
 	index: projects,
 	//stories: stories,
 	projects: projects
 }
+
+/*var stories = function(project, _) {	
+	// TODO: Check for int, then it's an id
+	// Projects are by id, retrieve id by project name
+	var options = {}; 
+	options.url = 'https://agilezen.com/api/v1/projects';
+	options.headers = {"X-Zen-ApiKey": apikey };
+	return this.json(options, _);
+}*/
