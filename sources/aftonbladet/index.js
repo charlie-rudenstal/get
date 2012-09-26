@@ -3,9 +3,8 @@
 var articles = function(noparam, query, callback) { 
     query
     .rss('http://www.aftonbladet.se/rss.xml')
-    .test()
     .exclude('meta')
-    //.match('.title')
+    .match(".title")
     .then(callback);
 }
 
