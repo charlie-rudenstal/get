@@ -8,6 +8,6 @@
 
 var get = require('../');
 
-get(process.argv, function(err, r) {
+get(process.argv, function(r) {
 	console.log(r);
 });
