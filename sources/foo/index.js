@@ -11,3 +11,5 @@ module.exports = {
 	index: foo,
 	search: foo
 }
+
+// Dan tillväxtmedier
