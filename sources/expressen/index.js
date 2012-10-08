@@ -1,6 +1,5 @@
-var query = require('../../lib/helpers/query');
-
-var articles = function(noparam, callback) { 
+var articles = function(noparam, query, callback) { 
+    //query.reverse().then(callback);
     query
     .rss('http://www.expressen.se/Pages/OutboundFeedsPage.aspx?id=3642159&viewstyle=rss')
     .exclude('meta')
