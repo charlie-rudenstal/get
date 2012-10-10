@@ -1,5 +1,5 @@
 var query = require('../../lib/helpers/query');
-var apikey = "7b0268fdfa224eb2932f335195d4f77a";
+var apikey = "inject";
 
 var projects = function(noparam, data, callback) { 
 	query
